@@ -8,7 +8,7 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
-const SECRET_KEY = '0x4AAAAAABzOsFPBYaeJiuJ8tSg4b_i0DtU';
+const SECRET_KEY = '{secret-key}';
 
 async function validateTurnstile(token, remoteip) {
 	const formData = new FormData();
